@@ -14,36 +14,10 @@ import asyncio
 logger = logging.getLogger("root")
 
 DEFAULT_QUERY = {
-    "stream": False,
-    "n_predict": 80,
-    "temperature": 0.6,
-    "dynatemp_range": 0.2,
     "stop": [
         "</s>",
         "Maru-chan:"
     ],
-    "repeat_last_n": 256,
-    "repeat_penalty": 1.18,
-    "penalize_nl": False,
-    "dry_multiplier": 0,
-    "dry_base": 1.75,
-    "dry_allowed_length": 2,
-    "dry_penalty_last_n": -1,
-    "top_k": 40,
-    "top_p": 0.95,
-    "min_p": 0.05,
-    "xtc_probability": 0,
-    "xtc_threshold": 0.1,
-    "typical_p": 1,
-    "presence_penalty": 0,
-    "frequency_penalty": 0,
-    "mirostat": 0,
-    "mirostat_tau": 5,
-    "mirostat_eta": 0.1,
-    "grammar": "",
-    "n_probs": 0,
-    "min_keep": 0,
-    "image_data": [],
     "cache_prompt": True,
     "prompt": ""
 }
